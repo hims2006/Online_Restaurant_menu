@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://t3.ftcdn.net/jpg/02/05/87/60/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg');
+    background-color: #fff8e1;
+    color: #333;
+  }
+  header {
+    background-color: #ff7043;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  ol {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe0b2;
+    padding: 10px;
+    list-style-position: inside;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  ol li {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  ol li:hover, ol li.active {
+    border-color: #ff5722;
+    background-color: #fff3e0;
+  }
+  .menu-section {
+    padding: 20px;
+  }
+  .menu-section h2 {
+    margin-bottom: 15px;
+    color: #e64a19;
+  }
+  .menu-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+  }
+  .menu-section ul li {
+    background-color: #fff3e0;
+    border: 1px solid #ffccbc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  .menu-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
